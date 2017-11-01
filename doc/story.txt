@@ -1,0 +1,27 @@
+Author: fsharpasharp
+Version: 0.1
+==============================================================================
+SUMMARY                                                              *story*
+
+Use :Story to start a completion with the first word from the cursor, i.e. <cword>.
+
+<CR> to continue the completion.
+- to go back one step.
+<BS> to choose current line and end the completion.
+
+Choosing the same completion twice in a row ends the completion. You may also customize the completion before selecting it.
+
+==============================================================================
+OPTIONS                                                      *story-options*
+
+Regex suffix, the default suffix mimics the completion of <CTRL-X> <CTRL-P>.
+
+let g:story_suffix_regex = '\(\W\+\w*\|\w\+\)'
+
+Display the current keyword on the first line of the buffer, allows you to finish the completion with <CR>.
+
+let g:story_base_first = 0
+
+Automatically complete when there are no further matches.
+
+let g:story_autocomplete_last = 0
