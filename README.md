@@ -4,7 +4,7 @@ Navigate local keyword completions with ease.
 ![Usage](https://i.imgur.com/YMJHRce.gif)
 
 # Usage
-Call :Story to begin your completion from <cword>.
+Call :Story to begin your completion.
 
 ```
 <CR> to continue the completion.
