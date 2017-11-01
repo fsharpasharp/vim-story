@@ -1,7 +1,7 @@
 # vim-story
 Navigate local keyword completions with ease.
 
-![Usage](https://i.imgur.com/SrjAxxV.gif)
+![Usage](https://i.imgur.com/YMJHRce.gif)
 
 # Usage
 Call :Story to begin your completion from <cword>.
